@@ -1,0 +1,152 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #40514E;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: dotted #66BFBF 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+/* top container */
+.top {
+  background-color: #EAF6F6;
+  margin-bottom: 70px;
+}
+
+.imgTop {
+  position: absolute;
+}
+
+.cloudTop {
+  right: 10%;
+  top: 20px;
+}
+
+.cloudBottom {
+  left: 20%;
+  padding-top: 50px;
+}
+
+/* presentation */
+.profilePic {
+  border-radius: 70%;
+  width: 10%;
+}
+
+.profileDesc {
+  width: 40%;
+  margin: auto;
+}
+
+.presentation {
+  margin-bottom: 70px;
+}
+
+/* skills */
+
+.imgSkills1 {
+  border-radius: 90%;
+  width: 10%;
+  float: left;
+  margin-right: 20px;
+}
+
+.imgSkills2 {
+  border-radius: 90%;
+  width: 15%;
+  float: right;
+  margin-left: 20px;
+}
+
+.skillsParagraph1 {
+  text-align: left;
+  margin-top: 3%;
+  margin-bottom: 60px;
+}
+
+.skillsParagraph2 {
+  text-align: right;
+  margin-top: 2%;
+  margin-bottom: 120px;
+}
+
+.skills {
+  margin: 50px auto;
+}
+
+/* social */
+.social {
+  margin: 80px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* footer */
+.footer {
+  background-color: #66BFBF;
+  margin: 50px auto 0;
+  padding: 20px;
+}
+
+.copyRight {
+  color: #EAF6F6;
+  margin-bottom: 0;
+}
+
+.links {
+  color: #11999E;
+  margin: 20px;
+}
